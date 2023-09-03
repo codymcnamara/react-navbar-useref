@@ -11,12 +11,6 @@ const Navbar = () => {
   const toggleLinks = () => {
     console.log(linksRef);
     setShowLinks(!showLinks);
-    // if(showLinks){
-    //     let height = linksRef.current.getBoundingClientRect().height;
-    //     linksContainerRef.current.style.height = ;
-    // }else{
-    //     linksContainerRef.current.style.height = 0;
-    // }
   };
 
   let linkStyle = {
